@@ -23,6 +23,10 @@ jobs:
         with:
           name: Europe deck
           path: ./bin/europe.apkg
+      - name: email config
+        run: git config user.email "kevin@fit-flashcards.github.io"
+      - name: name config
+        run: git config user.name "Robot Kevin"
       - name: switching from HTTPS to SSH
         run: git remote set-url origin ${{ secrets.ssh }}
       - name: check for changes
