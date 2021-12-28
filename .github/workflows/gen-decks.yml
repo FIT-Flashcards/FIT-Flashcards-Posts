@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  gen-europe:
+  generate-decks:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -18,33 +18,14 @@ jobs:
         run: |
           npm install
           npm run gen-europe
-      - name: Upload europe deck
-        uses: actions/upload-artifact@v2
-        with:
-          name: Europe deck
-          path: ./bin/europe.apkg
+          npm run gen-south-america
       - name: Commit files # transfer the new html files back into the repository
         run: |
           git config --local user.name "robotkevin"
           git add ./bin
-          git commit -m "Updating the repository GitHub html pages in the docs folder"
+          git commit -m "Generate Decks (automatic)"
       - name: Push changes # push the output folder to your repo
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           force: true
-  
-  gen-south-america:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Generate south america capitals deck
-        run: |
-          npm install
-          npm run gen-south-america
-      - name: Upload south america deck
-        uses: actions/upload-artifact@v2
-        with:
-          name: South america deck
-          path: ./bin/south-america.apkg
