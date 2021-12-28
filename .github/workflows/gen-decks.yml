@@ -23,22 +23,16 @@ jobs:
         with:
           name: Europe deck
           path: ./bin/europe.apkg
-      - name: email config
-        run: git config user.email "kevin@fit-flashcards.github.io"
-      - name: name config
-        run: git config user.name "Robot Kevin"
-      - name: switching from HTTPS to SSH
-        run: git remote set-url origin ${{ secrets.ssh }}
-      - name: check for changes
-        run: git status
-      - name: stage changed files
-        run: git add .
-      - name: commit changed files
-        run: git commit -m "Auto updating TODO.txt"
-      - name: fetch from master
-        run: git fetch origin master
-      - name: push code to master
-        run: git push origin HEAD:master
+      - name: Commit files # transfer the new html files back into the repository
+        run: |
+          git config --local user.name "robotkevin"
+          git add ./bin
+          git commit -m "Updating the repository GitHub html pages in the docs folder"
+      - name: Push changes # push the output folder to your repo
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.ssh }}
+          force: true
   
   gen-south-america:
     runs-on: ubuntu-latest
