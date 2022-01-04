@@ -17,31 +17,30 @@ jobs:
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v2
         with:
-          find: "$$"
+          find: "\$\$"
           replace: "\\["
           regex: false
-          include: "./decks"
+          include: "decks/"
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v2
         with:
-          find: "$$;"
+          find: "\$\$;"
           replace: "\\]"
-          regex: false
-          include: "./decks"
+          include: "decks/"
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v2
         with:
-          find: "$"
+          find: "\$"
           replace: "\\("
           regex: false
-          include: "./decks"
+          include: "decks/"
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v2
         with:
-          find: "$;"
+          find: "\$;"
           replace: "\\)"
           regex: false
-          include: "./decks"
+          include: "decks/"
       - name: Generate europe capital deck
         run: |
           npm install -g mdanki
