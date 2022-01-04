@@ -53,7 +53,6 @@ Jak se vaří brambora? +ěšřčžčžčáčýéčšž
 
 \\\(x+y=1\\\)
 
-
 <!--question-->
 
 Jak se vaří brambora? 2 +ěšřčžčžčáčýéčšž
