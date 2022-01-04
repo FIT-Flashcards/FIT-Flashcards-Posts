@@ -16,13 +16,12 @@ jobs:
         uses: actions/checkout@v2
       - name: Generate europe capital deck
         run: |
-          npm install
-          npm run gen-europe
-          npm run gen-south-america
+          npm install -g mdanki
+          mdanki ./notes/BI-AAG --deck BI-AAG2 ./decks/BI-AAG2.apkg --config ./config/deck-settings.json
       - name: Commit files # transfer the new html files back into the repository
         run: |
           git config --local user.name "robotkevin"
-          git add ./bin
+          git add ./decks
           git commit -m "Generate Decks (automatic)"
       - name: Push changes # push the output folder to your repo
         uses: ad-m/github-push-action@master
