@@ -17,7 +17,7 @@ jobs:
       - name: Generate europe capital deck
         run: |
           npm install -g mdanki
-          mdanki ./notes/BI-AAG --deck BI-AAG2 ./decks/BI-AAG2.apkg --config ./config/deck-settings.json
+          mdanki ./notes/BI-AAG --deck BI-AAG2 ./decks/BI-AAG2.apkg --config ./.config/deck-settings.json
       - name: Get yesterday's date
         id: cdate
         run: |
