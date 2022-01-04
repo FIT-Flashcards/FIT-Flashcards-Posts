@@ -14,6 +14,34 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: "$$"
+          replace: "\\\["
+          regex: false
+          include: "./decks"
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: "$$;"
+          replace: "\\\]"
+          regex: false
+          include: "./decks"
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: "$"
+          replace: "\\\("
+          regex: false
+          include: "./decks"
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: "$;"
+          replace: "\\\)"
+          regex: false
+          include: "./decks"
       - name: Generate europe capital deck
         run: |
           npm install -g mdanki

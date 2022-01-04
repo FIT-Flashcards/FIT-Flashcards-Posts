@@ -44,3 +44,20 @@ otazka3
 odpoved3
 
 [#tag1]() [#tag2]() [#tag3]()
+
+<!--question-->
+
+Jak se vaří brambora? +ěšřčžčžčáčýéčšž
+
+<!--answer-->
+
+$x+y=1$;
+
+
+<!--question-->
+
+Jak se vaří brambora? 2 +ěšřčžčžčáčýéčšž
+
+<!--answer-->
+
+$$\frac{\mathrm{d}(U V)}{\mathrm{d} a}=\left\langle\begin{array}{l} \frac{\mathrm{d} U}{\mathrm{~d} a} V, \text { pokud } \varepsilon \notin h(U), \\ \frac{\mathrm{d} U}{\mathrm{~d} a} V+\frac{\mathrm{d} V}{\mathrm{~d} a}, \text { pokud } \varepsilon \in h(U) \end{array}\right.$$;
