@@ -29,6 +29,8 @@ otazka2
 
 odpoved2
 
+![](../../img/bogota.png)
+
 [#tag1]() [#tag2]()
 
 <!--question-->

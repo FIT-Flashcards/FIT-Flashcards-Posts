@@ -20,9 +20,9 @@ jobs:
           mdanki ./notes/BI-AAG --deck BI-AAG2 ./decks/BI-AAG2.apkg --config ./config/deck-settings.json
       - name: Commit files # transfer the new html files back into the repository
         run: |
-          git config --local user.name "robotkevin"
+          git config --local user.name "botkevin"
           git add ./decks
-          git commit -m "Generate Decks (automatic)"
+          git commit -m "Generate Decks [BOT]"
       - name: Push changes # push the output folder to your repo
         uses: ad-m/github-push-action@master
         with:
