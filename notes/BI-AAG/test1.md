@@ -29,7 +29,7 @@ otazka2
 
 odpoved2
 
-![](../../img/bogota.png)
+![](img/Pasted%20image%2020220104145024.png)
 
 [#tag1]() [#tag2]()
 

@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "bad5cc61f2beffc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "08ccf4b3ee1ae7d0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "notes/BI-AAG/test1.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5fd8577b84654af4",
+    "type": "split",
+    "children": [
+      {
+        "id": "71617f4e38ceaf55",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ae038282cdb80e3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fbe52dfbf8ab360c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 491
+  },
+  "right": {
+    "id": "9fa4356f1858f393",
+    "type": "split",
+    "children": [
+      {
+        "id": "55bf22aaa8d62a8c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3042ea0c63f0dee6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/BI-AAG/test1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "08ccf4b3ee1ae7d0",
+  "lastOpenFiles": [
+    "notes/BI-AAG/test1.md",
+    "decks/README.md",
+    "notes/BI-AAG/img/Pasted image 20220104144810.png",
+    "notes/BI-AAG/img/Pasted image 20220104145024.png",
+    "Pasted image 20220104144655.png"
+  ]
+}
