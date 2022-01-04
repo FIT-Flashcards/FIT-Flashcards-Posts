@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "notes/BI-AAG/test1.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         }
@@ -90,9 +90,11 @@
   "active": "08ccf4b3ee1ae7d0",
   "lastOpenFiles": [
     "notes/BI-AAG/test1.md",
+    "notes/BI-AAG/img/bc7ada9abb616cbaf04d6c1d8d5a319a.png",
+    "notes/BI-AAG/img/37039e93733be69316ae2c8e6e2fa6f9.png",
+    "notes/BI-AAG/img/Pasted image 20220104150119.png",
     "decks/README.md",
     "notes/BI-AAG/img/Pasted image 20220104144810.png",
-    "notes/BI-AAG/img/Pasted image 20220104145024.png",
     "Pasted image 20220104144655.png"
   ]
 }

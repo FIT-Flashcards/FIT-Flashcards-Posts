@@ -29,7 +29,9 @@ otazka2
 
 odpoved2
 
-![](img/Pasted%20image%2020220104145024.png)
+![](img/37039e93733be69316ae2c8e6e2fa6f9.png)
+
+![](img/bc7ada9abb616cbaf04d6c1d8d5a319a.png)
 
 [#tag1]() [#tag2]()
 

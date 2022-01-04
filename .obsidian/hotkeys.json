@@ -1,1 +1,11 @@
-{}
+{
+  "unique-attachments:rename-all-attachments": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ]
+}
