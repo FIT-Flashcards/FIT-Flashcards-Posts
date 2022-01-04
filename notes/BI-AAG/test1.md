@@ -1,3 +1,7 @@
+---
+title: test1
+---
+
 <!--question-->
 
 otazka1
