@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/BI-AAG/test1.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/BI-AAG/test1.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,12 +89,15 @@
   },
   "active": "08ccf4b3ee1ae7d0",
   "lastOpenFiles": [
+    "README.md",
     "notes/BI-AAG/test1.md",
-    "notes/BI-AAG/img/bc7ada9abb616cbaf04d6c1d8d5a319a.png",
     "notes/BI-AAG/img/37039e93733be69316ae2c8e6e2fa6f9.png",
-    "notes/BI-AAG/img/Pasted image 20220104150119.png",
+    "notes/BI-AAG/img/bc7ada9abb616cbaf04d6c1d8d5a319a.png",
     "decks/README.md",
-    "notes/BI-AAG/img/Pasted image 20220104144810.png",
-    "Pasted image 20220104144655.png"
+    "images/Pasted image 20220104181152.png",
+    "images/Pasted image 20220104181117.png",
+    "Pasted image 20220104181025.png.md",
+    "Pasted image 20220104181025.png",
+    "notes/BI-AAG/img/Pasted image 20220104150119.png"
   ]
 }

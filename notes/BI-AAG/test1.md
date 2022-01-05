@@ -68,3 +68,39 @@ Jak se vaří brambora? 2 +ěšřčžčžčáčýéčšž
 =\left\langle\begin{array}{l}\frac{\mathrm{d} U}
 {\mathrm{d} a} V, \text { pokud } \varepsilon \notin h(U), \\\\ \frac{\mathrm{d} U}{\mathrm{d} a} V+\frac{\mathrm{d} V}{\mathrm{~d} a}, \text { pokud } \varepsilon \in h(U) \end{array}\right.
 \\\]
+
+<!--question-->
+
+Muj bjutiful div
+
+<!--answer-->
+
+<div style="background-color: lightblue;">bhabhejkdna</div>
+
+<!--question-->
+
+Moje bjutiful veta
+
+<!--answer-->
+
+<div class="veta">
+<h5>Věta: mnafldsajndas</h5>
+<p>asknsadknlda</p>
+</div>
+
+<!--question-->
+
+Moje bjutiful definice
+
+<!--answer-->
+
+<div class="definice">
+<h5>Definice: mnafldsajndas</h5>
+<p>
+\[
+\frac{\mathrm{d}(U V)}{\mathrm{d} a}
+=\left\langle\begin{array}{l}\frac{\mathrm{d} U}
+{\mathrm{d} a} V, \text { pokud } \varepsilon \notin h(U), \\\\ \frac{\mathrm{d} U}{\mathrm{d} a} V+\frac{\mathrm{d} V}{\mathrm{~d} a}, \text { pokud } \varepsilon \in h(U) \end{array}\right.
+\]
+</p>
+</div>
