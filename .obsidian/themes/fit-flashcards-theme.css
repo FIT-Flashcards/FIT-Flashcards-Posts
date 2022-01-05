@@ -1,8 +1,9 @@
-.definice {
+.definice, .veta, .algoritmus, .lemma, .dusledek {
 	border: 1px solid #EDEDED;
     background-color: white;
-    margin-bottom: 5px;
     border-radius: 4px;
+    text-align: left;
+  	margin: 0 auto 10px auto;
 }
 .definice h5 {
 	color: #597454;
@@ -18,12 +19,6 @@
     color: black;
 }
 
-.veta {
-	border: 1px solid #EDEDED;
-    background-color: white;
-    margin-bottom: 5px;
-    border-radius: 4px;
-}
 .veta h5 {
 	color: #3B5E72;
     background-color: #D9EDF6;
@@ -38,12 +33,6 @@
     color: black;
 }
 
-.algoritmus {
-	border: 1px solid #EDEDED;
-    background-color: white;
-    margin-bottom: 5px;
-    border-radius: 4px;
-}
 .algoritmus h5 {
 	color: #887A5E;
     background-color: #FDF8E4;
@@ -58,12 +47,6 @@
     color: black;
 }
 
-.lemma {
-	border: 1px solid #EDEDED;
-    background-color: white;
-    margin-bottom: 5px;
-    border-radius: 4px;
-}
 .lemma h5 {
 	color: #3B5E72;
     background-color: #D9EDF6;
@@ -78,12 +61,6 @@
     color: black;
 }
 
-.dusledek {
-	border: 1px solid #EDEDED;
-    background-color: white;
-    margin-bottom: 5px;
-    border-radius: 4px;
-}
 .dusledek h5 {
 	color: #3B5E72;
     background-color: #D9EDF6;
