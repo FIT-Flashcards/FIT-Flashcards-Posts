@@ -1,0 +1,22 @@
+{
+    "code": {
+      "defaultLanguage": "bash",
+      "template": "dark"
+    },
+    "card": {
+      "separator": "(?=^<!--question-->\\s)",
+      "frontBackSeparator": "<!--answer-->",
+      "tagPattern": "^\\[#(.*)\\]"
+    },
+    "deck": {
+      "titleSeparator": "^#\\s",
+      "defaultName": "mdanki"
+    },
+    "template": {
+      "formats": {
+        "question": "{{Front}}<link rel=\"stylesheet\" href=\"_highlight_default.css\"><link rel=\"stylesheet\" href=\"_highlight_dark.css\"></link><script>var script;\"undefined\"==typeof hljs&&((script=document.createElement(\"script\")).src=\"_prism.js\",script.async=!1,document.head.appendChild(script));(script=document.createElement(\"script\")).src=\"_highlight.js\",script.async=!1,document.head.appendChild(script),document.head.removeChild(script);</script>",
+        "answer": "{{FrontSide}}\n\n<hr id=\"answer\">\n\n{{Back}}",
+        "css": ".card {\n text-align: center;\nfont-family: Arial,\"Helvetica Neue\",Helvetica,sans-serif;\n font-size: 16px;\n color: black;\nbackground-color: white;\n}\ncode[class*=\"language-\"],pre[class*=\"language-\"] {\n font-size: 0.9em !important;\n}h5{padding:.5rem 1rem;margin:0;border-bottom:1px solid rgba(0,0,0,.125);font-size:large;border-radius:4px 4px 0 0}.definice,.veta,.algoritmus,.lemma,.dusledek{border:1px solid #ededed;background-color:white;border-radius:4px;text-align:left;margin:0 auto 10px auto}.definice h5{color:#597454;background-color:#def0d8}.definice p{padding:.5rem 1rem;color:black}.veta h5{color:#3b5e72;background-color:#d9edf6}.veta p{padding:.5rem 1rem;color:black}.algoritmus h5{color:#887a5e;background-color:#fdf8e4}.algoritmus p{padding:.5rem 1rem;color:black}.lemma h5{color:#3b5e72;background-color:#d9edf6}.lemma p{padding:.5rem 1rem;color:black}.dusledek h5{color:#3b5e72;background-color:#d9edf6}.dusledek p{padding:.5rem 1rem;color:black}@media only screen and (min-device-width :320px) and (max-device-width :480px){.definice,.veta,.algoritmus,.lemma,.dusledek{max-width:100%}}@media only screen and (min-device-width :768px){.definice,.veta,.algoritmus,.lemma,.dusledek{max-width:700px}}"
+      }
+    }
+}

@@ -1,0 +1,76 @@
+.definice, .veta, .algoritmus, .lemma, .dusledek {
+	border: 1px solid #EDEDED;
+    background-color: white;
+    border-radius: 4px;
+    text-align: left;
+  	margin: 0 auto 10px auto;
+}
+.definice h5 {
+	color: #597454;
+    background-color: #DEF0D8;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    font-size: large;
+    border-radius: 4px 4px 0 0;
+}
+.definice p {
+	padding: 0.5rem 1rem;
+    color: black;
+}
+
+.veta h5 {
+	color: #3B5E72;
+    background-color: #D9EDF6;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    font-size: large;
+    border-radius: 4px 4px 0 0;
+}
+.veta p {
+	padding: 0.5rem 1rem;
+    color: black;
+}
+
+.algoritmus h5 {
+	color: #887A5E;
+    background-color: #FDF8E4;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    font-size: large;
+    border-radius: 4px 4px 0 0;
+}
+.algoritmus p {
+	padding: 0.5rem 1rem;
+    color: black;
+}
+
+.lemma h5 {
+	color: #3B5E72;
+    background-color: #D9EDF6;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    font-size: large;
+    border-radius: 4px 4px 0 0;
+}
+.lemma p {
+	padding: 0.5rem 1rem;
+    color: black;
+}
+
+.dusledek h5 {
+	color: #3B5E72;
+    background-color: #D9EDF6;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    font-size: large;
+    border-radius: 4px 4px 0 0;
+}
+.dusledek p {
+	padding: 0.5rem 1rem;
+    color: black;
+}

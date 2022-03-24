@@ -1,0 +1,35 @@
+name: Generate Anki decks
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  generate-decks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Generate europe capital deck
+        run: |
+          npm install -g mdanki
+          mdanki ./notes/BI-AAG --deck BI-AAG2 ./decks/BI-AAG2.apkg --config ./.config/deck-settings.json
+      - name: Get yesterday's date
+        id: cdate
+        run: |
+          echo "::set-output name=cdate::$(date +'%m-%d-%Y')"
+      - name: Commit files # transfer the new html files back into the repository
+        run: |
+          git config --local user.name "robotkevin"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ./decks
+          git commit -m 'Decks updated: ${{ steps.cdate.outputs.cdate }}'
+      - name: Push changes # push the output folder to your repo
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
